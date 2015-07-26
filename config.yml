@@ -1,0 +1,20 @@
+default:
+  cpus: 1
+  memory: 96
+  box: ubuntu-precise-x64
+  domain: localdomain
+  gui: false
+  share_path: /sloth
+
+nodes:
+-
+  name: node01
+  ip: 10.100.100.11
+  cpus: 1
+  memory: 384
+  box: ubuntu-precise-x64
+  lang: nodejs
+  share_dir: ~/repos
+-
+  name: node02
+  ip: 10.100.100.12

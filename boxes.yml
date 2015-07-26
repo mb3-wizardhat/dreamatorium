@@ -1,0 +1,11 @@
+boxes:
+  debian-607-x64: http://puppet-vagrant-boxes.puppetlabs.com/debian-607-x64-vbox4210.box
+  centos-64-x64: http://puppet-vagrant-boxes.puppetlabs.com/centos-64-x64-vbox4210.box
+  centos-59-x64: http://puppet-vagrant-boxes.puppetlabs.com/centos-59-x64-vbox4210.box
+  ubuntu-raring-x64: http://cloud-images.ubuntu.com/vagrant/raring/current/raring-server-cloudimg-amd64-vagrant-disk1.box
+  ubuntu-precise-x64: http://cloud-images.ubuntu.com/vagrant/precise/current/precise-server-cloudimg-amd64-vagrant-disk1.box
+  ubuntu-trusty-x64: http://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box
+  kali-linux: http://ftp.sliim-projects.eu/boxes/kali-linux-1.0-amd64.box
+  heroku-cedar: http://dl.dropbox.com/u/1906634/heroku.box
+  mavericks-1092: https://vagrantcloud.com/AndrewDryga/osx-mavericks/version/2/provider/virtualbox.box
+  win7-ent: http://vagrantboxes.devopslive.org/windows-7-enterprise-i386.box

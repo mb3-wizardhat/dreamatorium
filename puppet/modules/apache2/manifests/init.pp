@@ -10,7 +10,7 @@ class apache2::install {
     require => Package['apache2'],
     notify  => Service['apache2'],
   }
-  
+
   package { 'apache2':
     ensure => present,
   }->
@@ -23,7 +23,11 @@ class apache2::install {
   file { '/etc/apache2/conf-available/user.conf':
     source  => '/vagrant/files/etc/apache2/httpd.conf',
   }
-  
+
+  file { '/etc/apache2/ports.conf':
+    source  => '/vagrant/files/etc/apache2/ports.conf',
+  }
+
   file { '/etc/apache2/conf-enabled/user.conf':
     ensure => link,
     target => '/etc/apache2/conf-available/user.conf',
@@ -37,7 +41,7 @@ class apache2::install {
     source  => '/vagrant/files/etc/apache2/mods-available/rewrite.load',
   }
 
-  file { '/etc/apache2/sites-enabled/000-default.conf':
+  file { '/etc/apache2/sites-enabled/default.conf':
     ensure  => link,
     target  => '/etc/apache2/sites-available/default.conf',
   }
