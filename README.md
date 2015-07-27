@@ -21,7 +21,7 @@
 + Ubuntu Trusty 14.04 - **Done**
 + Nvm - Node/io.js version manager - **Done**
 + Oh My ZSH - **Done**
-+ Elastic Search - Buggy but Done
++ Elastic Search - Buggy but **Done**
 + Nginx - **Done**
 + Wordpress 4.0 - **Done**
 + WP-CLI - **Done**
