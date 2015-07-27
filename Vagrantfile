@@ -11,8 +11,6 @@ cfg['nodes'].each do |node|
 end
 
 ######################
-
-
 Vagrant.configure("2") do |config|
 
     cfg['nodes'].each do |node|
@@ -66,8 +64,7 @@ Vagrant.configure("2") do |config|
 end
 
 
-####################
-
+####################œ
 Vagrant.configure("2") do |config|
   config.vm.box = "trusty64"
   config.vm.box_url = "http://cloud-images.ubuntu.com/vagrant/trusty/current/trusty-server-cloudimg-amd64-vagrant-disk1.box"
