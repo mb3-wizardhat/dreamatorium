@@ -59,6 +59,7 @@
 + Seperation of services
 + Finalizing Configuration
 + Persistant data storage
++ Yaml based config file
 
 
 ## phpMyAdmin
